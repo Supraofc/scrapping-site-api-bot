@@ -20,11 +20,11 @@ instagram('newtonguitar')
   .catch((error) => {
     console.error(error);
   });
-
+```
 ## Proxy IP
 
 🚀 Como usar:
-javascript
+```javascript
 
 const ipPortas = require('./scrappers/ipportas');
 
@@ -35,12 +35,12 @@ ipPortas()
   .catch((error) => {
     console.error(error);
   });
-
+```
 ## Gerador de Apelidos
 
 
 🚀 Como usar:
-javascript
+```javascript
 
 const gerarApelidos = require('./scrappers/gerarapelidos');
 
@@ -51,11 +51,11 @@ gerarApelidos()
   .catch((error) => {
     console.error(error);
   });
-
+```
  ## Nomes Coreanos Generator
 
 🚀 Como usar:
-javascript
+```javascript
 
 const nomesCoreanos = require('./scrappers/nomescoreanos');
 
@@ -66,11 +66,11 @@ nomesCoreanos()
   .catch((error) => {
     console.error(error);
   });
-
+```
 ## Gerador de Dados Pessoais
 
 🚀 Como usar:
-javascript
+```javascript
 
 const gerarPessoas = require('./scrappers/gerarpessoas');
 
@@ -81,11 +81,12 @@ gerarPessoas()
   .catch((error) => {
     console.error(error);
   });
+```
 ## Meme Videos Scraper
 Este script extrai URLs de vídeos de memes de Melhores Memes - Vídeos.
 
 🚀 Como usar:
-javascript
+```javascript
 
 const videosMeme = require('./scrappers/videosmeme');
 
@@ -96,7 +97,7 @@ videosMeme()
   .catch((error) => {
     console.error(error);
   });
-
+```
 ## 🧑‍💻 Sobre o Criador
 
 Estes scrappers foram desenvolvidos por Newton, conhecido como Supra. Tenho 21 anos e sou um entusiasta da programação há 5 anos, com experiência em diversas linguagens como Python, JavaScript, C, C++, PHP, etc.
